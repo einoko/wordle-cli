@@ -1,0 +1,18 @@
+{
+  "name": "wordle-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "prettier": "^2.5.1",
+    "prompts": "^2.4.2"
+  }
+}
