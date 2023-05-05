@@ -63,6 +63,7 @@ const rankWords = (words) => {
       if (guess !== word) {
         const result = getGuessResults(word, guess);
         const status = parseGuess(result);
+
         advantage.push(
           status.filter((el) => el.length === 1).length +
             status.filter((el) => el.includes("?")).length * 0.5

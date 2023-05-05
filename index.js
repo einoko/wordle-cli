@@ -28,7 +28,7 @@ const initPrompt = {
     },
     {
       title: "Benchmark",
-      description: "Benchmark the solver",
+      description: "Benchmark the solver algorithm",
       value: "benchmark",
     },
     {
@@ -210,7 +210,7 @@ async function benchmark() {
     )}\n`
   );
   console.log(
-    `Failed to solve the following words in under 6 attempts: \n${chalk.bold(
+    `Failed to solve the following words in 6 attempts or less: \n${chalk.bold(
       games
         .filter((game) => game.attempts > 6)
         .map((game) => game.word.toUpperCase())
